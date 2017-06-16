@@ -16,14 +16,22 @@
         <plugins>
             <plugin>
                 <groupId>com.smartbear.soapui</groupId>
-                <artifactId>soapui-pro-maven-plugin</artifactId>
+                <artifactId>soapui-maven-plugin</artifactId>
                 <version>5.3.0</version>
 		<configuration>
-            		<projectFile>soapui-maven-project.xml</projectFile>
+            		<projectFile>soapui-maven-example.xml</projectFile>
             		<projectProperties>
                 		<value>message=Hello World!</value>
             		</projectProperties>
         	</configuration>
+                <executions>
+                    <execution>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>test</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
