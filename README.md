@@ -1,4 +1,4 @@
-# SoapUI Maven Automation Example
+# SoapUI Maven Automation Example [![Build Status](https://travis-ci.org/O5ten/soapui-maven-example.svg?branch=master)](https://travis-ci.org/O5ten/soapui-maven-example.svg?branch=master)
 
 This is an example setup for SoapUI-maven integration using a plain very basic pom to power up the soapui maven plugin.
 It can be used to bring API test-automation to your project or to use it as a service-monitoring tool. 
