@@ -1,5 +1,5 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.cybercom.edu</groupId>
     <artifactId>soapui-maven-example</artifactId>
@@ -18,12 +18,12 @@
                 <groupId>com.smartbear.soapui</groupId>
                 <artifactId>soapui-maven-plugin</artifactId>
                 <version>5.3.0</version>
-		<configuration>
-            		<projectFile>soapui-maven-example.xml</projectFile>
-            		<projectProperties>
-                		<value>message=Hello World!</value>
-            		</projectProperties>
-        	</configuration>
+                <configuration>
+                    <projectFile>soapui-maven-example.xml</projectFile>
+                    <projectProperties>
+                        <value>example=Hello World!</value>
+                    </projectProperties>
+                </configuration>
                 <executions>
                     <execution>
                         <phase>test</phase>
